@@ -1,0 +1,220 @@
+.welcome-banner{
+    background-color: #ff9800;
+    padding: 20px;
+    border-radius: 30px;
+    border: 2px solid #ff5722;
+    transition: all 0.5s ease-in-out;
+}
+
+.welcome-banner > h3{
+    color: white;
+    font-family: sans-serif;
+    transition: all 0.5s ease-in-out;
+}
+
+.welcome-banner > p{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #585858;
+    transition: all 0.5s ease-in-out;
+}
+
+.welcome-banner:hover{
+    background-color: #fff;
+}
+
+.welcome-banner:hover > h3{
+     color: orange;
+}
+
+
+
+.block-content > .title{
+    text-align: center;
+    padding: 20px;
+    background-color: #ff5722;
+    border-radius: 25px;
+    width: 200px;
+    margin: auto;
+}
+
+.block-content > .content{
+    display: none;
+}
+
+.block-content:hover > .title{
+    display: none;
+}
+.block-content:hover > .content{
+    display: block;
+}
+
+
+
+@keyframes loader {
+    0% { transform: rotateZ(0deg); }
+    
+    50% { transform: rotateZ(45deg); }
+
+    100% { transform: rotateZ(0deg); }
+}
+
+
+.loader{
+    width: 80px;
+    height: 80px;
+    border: 5px solid black; 
+    border-right: 0;
+    border-radius: 500%;
+    animation-name: loader;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+
+body{
+    margin: 0;
+}
+
+.screen{
+    height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.screen > .new-loader{
+    width: 100px;
+}
+
+.screen > .new-loader > .square{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: orange;
+}
+
+
+@keyframes jump {
+    0% { transform: translateY(0px); }
+    
+    50% { transform: translateY(-10px); }
+
+    100% { transform: translateY(0px); }
+}
+
+.screen > .new-loader > .first{ 
+    animation-name: jump;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.screen > .new-loader > .second{ 
+    animation-name: jump;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.3s;
+}
+
+.screen > .new-loader > .third{ 
+    animation-name: jump;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.6s;
+}
+
+
+.screen > .new-loader > .fourth{ 
+    animation-name: jump;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.9s;
+}
+
+
+.block{
+    background-color: #ff5722;
+    height: 350px;
+    position: relative;
+}
+
+.block > .shape{
+    height: 100px;
+    width: 100px;
+    background-color: #585858;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+}
+
+.block > .shape2{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+}
+
+.fixed-button{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: red;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+
+/*
+    <div class="connected-user">
+        <div class=" <div class="status conncted"></div> conncted"></div>
+        <div class="user-avatar"></div>
+    </div>
+*/
+
+.connected-user{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 8px;
+ 
+}
+
+.connected-user > .status{
+    width: 15px;
+    height: 15px;
+    top: 5px;
+    right: 4px;
+    z-index: 2;
+    background-color: rgb(114, 114, 114);
+    border-radius: 50%;
+    position: absolute;
+    border: 2px solid white;
+}
+
+.connected-user > .user-avatar{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(218, 218, 218);
+    border-radius: 50%;
+    background-image: url(https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/batman_hero_avatar_comics-512.png);
+    background-position: center;
+    background-size: cover;
+}
+.connected-user > .status.connected{ 
+    background-color: rgb(106, 214, 106);
+}
+
+.connected-users-list{
+    height: 105px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+
+
+
