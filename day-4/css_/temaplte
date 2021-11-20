@@ -1,0 +1,42 @@
+<!--
+
+        <div class="container">
+
+
+        <div class="alert bg-danger">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio aliquid repellat beatae odit. Cumque est officiis ad illo praesentium beatae sunt, aspernatur recusandae eligendi quibusdam, eius possimus dignissimos libero nulla.
+        </div>
+
+    </div>
+
+    <button class="btn btn-danger">click me</button>
+-->
+
+
+
+
+    <!--
+
+            <div class="col col-4">
+
+        <div class="card">
+            <img src="./bg.jpg" class="w-100" alt="">
+    
+            <div class="card-body">
+                <h3>card title</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus deserunt quisquam quidem voluptatibus ducimus unde exercitationem facilis itaque molestiae similique. Ipsam repellat culpa dolorum ullam, illum nemo tempora sapiente deleniti?
+                </p>
+
+                <a href="#">go somewhere</a>
+            </div>
+        </div>
+   
+        
+    </div>
+    -->
+
+
+    <div class="progress">
+        <div class="progress-value"></div>
+    </div>

@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+}
+
+ 
+.col{ 
+    float: left;
+}
+
+.col-1{
+    width: 8.3333%;
+}
+.col-2{
+    width: 16.6666%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33333%;
+}
+.col-5{
+    width: 41.6666%;
+}
+.col-6{
+    width: 50%;
+}
+
+
+/* width < 500 */
+@media screen and ( max-width: 500px ) {
+    .col{
+        width: 100%;
+        background-color: red;
+    }
+}
+
+/* width > 500  && < 1200*/
+@media screen and ( min-width: 500px ) and ( max-width : 1200 ) {
+    .col{
+        width: 50%;
+    }
+}
+
+/*********************************************************************************************/
+
+.alert{
+    border-radius: 7px;
+    border: 1px solid;
+    padding: 8px 15px 8px 15px;
+
+} 
+
+.alert.bg-danger{
+    background-color: #f8d7da;
+    color: #9c2e37;
+    border-color: #842029;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+    
+}
+
+
+@media screen and ( max-width: 500px ) {
+    .container{
+        width: 100%; 
+    }
+}
+
+.btn{
+    outline: none;
+    border: 0;
+    padding: 15px;
+    border-radius: 7px;
+
+}
+
+.btn-danger{
+    background-color: orange;
+    color: black;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-danger:hover {
+    background-color: rgb(199, 132, 6);
+    box-shadow: 0px 7px 8px 0px #c8c8c8;
+}
+
+.w-100{
+    width: 100%;
+
+}
+
+.card{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+
+.card>.card-body{
+    padding: 15px;
+}
+
+
+.card>.card-body > h3{
+    margin: 0;
+}
+
+.card>.card-body > a{
+    outline: none;
+    border: 0;
+    padding: 15px;
+    border-radius: 7px;
+    background-color: orange;
+}
+
+.progress{
+    background-color: gray;
+    height: 25px;
+    width: 100%;
+}
+
+.progress>.progress-value{
+    background-color: blue;
+    height: 100%;
+}
+
+
+.custom-navbar-bg{
+    background-color: #842029;
+}
+
+.custom-navbar-bg .nav-link{
+    color: white !important;
+}
+
+.img-circle{
+    border-radius: 50%;
+
+}
+
+
+.avatar{
+    width: 180px;
+}
+
+
+.name{
+    color: rgb(97, 97, 97);
+}
+
+.name > span{
+    color: orange;
+}
