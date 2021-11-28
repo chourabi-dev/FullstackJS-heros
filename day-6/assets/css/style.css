@@ -1,0 +1,62 @@
+.avatar{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color: rgb(224, 224, 224);
+    background-position: center;
+    background-size: cover;
+}
+
+.bloc-chat{
+    margin-top: 15px;
+}
+
+.side-chats{
+
+}
+ 
+
+.chat-list{
+    height: calc( 100vh - (3rem + 38px + 1rem ) );
+    overflow-y: scroll;
+}
+
+.activedted-chat{
+    align-items: end;
+    height: calc( 100vh - ( 3rem ) );
+    flex-direction: column;
+    justify-content: end;
+}
+
+.messages{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+
+.income-message{ 
+    max-width: 80%;
+    background-color: black;
+    color: white;
+    padding: 18px;
+    border-radius: 21px;
+}
+
+.out-message{ 
+    max-width: 80%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 18px;
+    border-radius: 21px; 
+    border: 1px solid;
+}
+.out-parent{
+    justify-content: end;
+}
+
+.messages > div {
+    margin-bottom: 5px;
+}
