@@ -1,0 +1,13 @@
+.view-select{
+    background-color: #eaeaea;
+    padding: 10px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.view-select.selected{
+    background-color: #000000;
+    padding: 10px;
+    margin-right: 15px;
+    color: white;
+}
