@@ -13,6 +13,7 @@ import ContactPage from './pages/ContactPage';
 import Navbar from './compos/Navbar';
 import ArticlesPage from './pages/ArticlesPage';
 import ArticleDetailsPage from './pages/ArticleDetailsPage';
+import ServerCall from './pages/ServerCall';
 
 
 class App extends React.Component{
@@ -24,11 +25,13 @@ class App extends React.Component{
       <div>
         <Router>
 
-          <Navbar/>
+          
 
 
           <Switch> 
               <Route path="/"  component={ HomePage } exact />
+              <Route path="/server"  component={ ServerCall } exact />
+                  
               <Route path="/home"  component={ HomePage }  exact />  
               <Route path="/contact"  component={ ContactPage } exact />  
               <Route path="/artilces"  component={ ArticlesPage } exact /> 
