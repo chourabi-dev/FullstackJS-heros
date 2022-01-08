@@ -5,3 +5,9 @@ https://www.mongodb.com/try/download/community
 
 add mongo to node project
 npm i mongodb
+
+
+
+JWT
+
+npm i jsonwebtoken
