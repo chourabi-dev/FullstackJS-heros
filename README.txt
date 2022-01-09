@@ -7,7 +7,12 @@ add mongo to node project
 npm i mongodb
 
 
-
+ 
 JWT
 
 npm i jsonwebtoken
+
+
+SHA1
+
+npm install sha1
