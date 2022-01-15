@@ -16,3 +16,12 @@ npm i jsonwebtoken
 SHA1
 
 npm install sha1
+
+
+
+https://startbootstrap.com/theme/sb-admin-2
+
+
+
+
+npm i cors
